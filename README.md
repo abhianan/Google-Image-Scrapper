@@ -1,5 +1,9 @@
 # Google-Image-Scrapper
 
+    The original package was developed by Anthony Casagrande and can be obtained from https://github.com/BirdAPI . I used his approach and developed a clean project which will help you in Scraping https://images.google.com/  and will give you better result . 
+    
+    #Development is still going on . Trying to make every image downloadable.
+
 
     One Basic Example I used 
 
