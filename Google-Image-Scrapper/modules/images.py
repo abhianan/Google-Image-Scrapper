@@ -302,7 +302,7 @@ def search(query, image_options=None, num_images=50):
         html = browser.page_source
 
         if html:
-            soup = BeautifulSoup(html,"lxml")
+            soup = BeautifulSoup(html,"html.parser")
 
             # iterate over the divs containing images in one page
             divs = _find_divs_with_images(soup)
