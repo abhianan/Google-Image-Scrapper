@@ -17,9 +17,7 @@
     @author: ananab06
     """
 
-    import os
-
-    os.chdir("C:\Users\AnanAb06\Documents\Python Scripts")
+    
     from Google-Image-Scrapper import google
     s=raw_input("Enter Your Query ")
     results = google.search_images(s)
